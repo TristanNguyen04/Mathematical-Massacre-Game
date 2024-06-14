@@ -1,0 +1,14 @@
+LocationHeader = "assets\\sounds\\"
+hitSounds = ['Hits_New_1.wav', 'Hits_New_2.wav', 'Hits_New_3.wav', 'Hits_New_4.wav','Hits_New_5','Hits_New_6']
+StreakRunningSounds = ['Laughter1.wav','Laughter2.wav','Laughter3.wav','Laughter4.wav']
+StreakProgressionSounds = ['Streak1','Streak2','Streak3']
+StreakOpeningSounds = ['StreakReached1','StreakReached2']
+ShockedSounds = ['Disappointment1.wav', 'Disappointment2.wav']
+lasershoot = ['assets\\laserShoot.wav', 'assets\\laserShoot2.wav']
+MainMenuMusic = LocationHeader+ 'MainMenuMusic.wav'
+introsound = LocationHeader+ 'IntroSound.wav'
+hitSoundsFileNames = [LocationHeader + x for x in hitSounds]
+StreakRunningSoundFilenames = [LocationHeader+x for x in StreakRunningSounds]
+StreakProgressionSoundsFilenames = [LocationHeader+x for x in StreakProgressionSounds]
+StreakOpeningSoundsFilenames = [LocationHeader+x for x in StreakOpeningSounds]
+ShockedSoundsFilenames = [LocationHeader + x for x in ShockedSounds]
